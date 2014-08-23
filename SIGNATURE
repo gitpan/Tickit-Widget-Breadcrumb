@@ -1,0 +1,53 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 8d1bf5ce5c6bbbdc21bc514a803e36022737d6a0 Changes
+SHA1 31318382d6b548207e8199aa4306552f6e62c96c INSTALL
+SHA1 6b50b30fa6f8d063d96e32c9a81f3f82328925f7 LICENSE
+SHA1 7ea7c5c122be61ac641fcea08761f568f32d1f98 MANIFEST
+SHA1 80582bda73b0b119b7f5b33e88da87125c8ce835 META.json
+SHA1 3600d2124bcf930136d0fdd4363d34a075bc0a9a META.yml
+SHA1 62b757c3167c00d9b1a54c358e264c6c63498c42 Makefile.PL
+SHA1 6c08d06d198a025724ee28ab9f98f1814edda6b3 README
+SHA1 8b24f022377fd0651d7cd2d74c09826c9120f0a9 cpanfile
+SHA1 9b994e238584add3ff23f9595ada7a3aecaecb88 dist.ini
+SHA1 b0112d7e634d23fabd4c3333e0cddeecc46fad4b examples/block.pl
+SHA1 82d6138d4d164a402407bd53935f7ebfd28b0ff8 examples/breadcrumb.pl
+SHA1 986b715ae64469b4623328f6f377d7698a8a0f01 examples/powerline.pl
+SHA1 0663ad3cbf468da34e58f34d926ac234bcddcff3 lib/Tickit/Widget/Breadcrumb.pm
+SHA1 f396e4e34e84abe0b4f39e990ed90a5fdd682627 lib/Tickit/Widget/Breadcrumb.pod
+SHA1 985d9ded8d8ed7e344a09e52b1402e878e91da28 t/00-check-deps.t
+SHA1 41cc0c4a00f301a122f35d2a18ced594f321199d t/00-compile.t
+SHA1 a2041c9840734a4b5c861db037a593e6f02066de t/000-report-versions-tiny.t
+SHA1 5578305dfd8d0fb361863bcff0cb8f7d7b3a784f t/adapter.t
+SHA1 231865bda34719ec4f2642746ff4b967fe2234a2 t/render.t
+SHA1 f242e380d897f0430a668ea3f2938df75c0bef55 xt/author/test-eol.t
+SHA1 198d1665317c3d91e3bb81f0a3b8dad8d4d66f20 xt/release/common_spelling.t
+SHA1 c6c3c9f7fe12058b4771449dff874b1c450c982c xt/release/mojibake.t
+SHA1 296928dbbcaffd1514ccc9b77a1e6e03cfe9b068 xt/release/pod-syntax.t
+SHA1 34513f89a70b96f6412fe2ef0ad4d475e8cac66c xt/release/synopsis.t
+SHA1 bbcd59d081d9940af5d43337ae85458075933829 xt/release/test-version.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJT9+XnAAoJEFKElMNpjtyDzOsIAL4mWDE/caYnYhbnsihHjE9b
+b1O89A2ILbFE9mmFC6ISIb8q+CE5Vr4qIWZNXlg2vKrMqUxas3kL7q5bI3sb1czn
+XQ8pltVvNuFL9XRGEUGhIJUCtev0dL4YFSlCvh+wKqzRaoCSS72k6PtR6jmWVTN9
+Uihzb8TLmgL2ARRr6/JycKzd3VkX79l5rLrKMD6VfrVHf+2pxL3Ag91XN/jT83jx
+BaTrLPKN6gXwr+4z3UVZBtLHW9fu9ULh0g1/FsCtYJz2+w8YbzR2UCOir5Xt7tBY
+Epe5RR6gIf70bIVrkMbizPc7OS9VodO5W045s6ghb8ZiPnM+aVseuj+4NIMRvgo=
+=CtlS
+-----END PGP SIGNATURE-----
